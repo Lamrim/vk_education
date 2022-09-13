@@ -31,7 +31,7 @@ class TestDict():
     "+33333333": "Bob",
     "+55555555": "Alice"}
 
-    # проверка на то что число имеет тип str
+    # проверка на то что число имеет тип dict
     def test_type(self):
         assert isinstance(self.dictData, dict)
 
